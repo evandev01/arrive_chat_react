@@ -1,0 +1,11 @@
+h5,
+h6 {
+	text-shadow: none !important;
+	color: black !important;
+}
+
+.card {
+	width: 18rem;
+	background-color: rgb(216, 57, 57) !important;
+	color: black;
+}
