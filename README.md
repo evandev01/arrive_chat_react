@@ -10,11 +10,11 @@
 
 ---
 
-### On launching of the application, a wss connection is made to the chat room WebSocket.
+### On launching of the application, a WebSocket connection is made to the chat room.
 
 ---
 
-### A react-bootstrap card is displayed for each user, sorted by the sum of the total number of words accumulated in all of that user's messages in descending order.
+### A React Bootstrap card is displayed for each user, sorted by the sum of the total number of words accumulated in all of that user's messages in descending order.
 
 ---
 

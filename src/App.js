@@ -63,12 +63,7 @@ const App = () => {
 							.map((x, i) => (
 								<Row key={i} className='justify-content-md-center'>
 									<Col md='auto' className='text-center m-3 p-3'>
-										<Card
-											style={{
-												width: '18rem',
-												backgroundColor: 'white',
-												color: 'black',
-											}}>
+										<Card>
 											<Card.Title>{x[0]}</Card.Title>
 											<Card.Subtitle>Word Count</Card.Subtitle>
 											<Card.Title> {x[1].wordCount}</Card.Title>
