@@ -43,10 +43,7 @@ const Home = () => {
 			isConnected = false
 		}
 
-		if (isConnected) {
-			wss.addEventListener('message', handleMessage)
-			wss.close()
-		}
+		wss.addEventListener('message', handleMessage)
 	}, [handleMessage])
 
 	useEffect(() => {
